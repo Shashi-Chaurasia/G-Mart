@@ -1,0 +1,260 @@
+body {
+    background-color: #8aaca096;
+    background-image: linear-gradient(rgba(134, 126, 126, 0.8),rgba(221, 231, 236, 0.8)) ,url('/Image/IMG_0201.jpg');;
+	background-position: center;
+	background-size: cover;
+}
+
+.container {
+    flex-wrap: wrap
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #4270C8;
+    width: 350px;
+    margin-top: -60px
+}
+
+p.mb-1 {
+    font-size: 25px;
+    color: #9FB7FD
+}
+
+.btn-primary {
+    border: none;
+    background: #5777DE;
+    margin-bottom: 60px
+}
+
+.btn-primary small {
+    color: #9FB7FD
+}
+
+.btn-primary span {
+    font-size: 13px
+}
+
+.card.two {
+    border-top-right-radius: 60px;
+    border-top-left-radius: 0
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 2rem
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    border-bottom: 1.5px solid #E6EBEE
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 2px solid #8A97A8
+}
+
+.form-control-placeholder {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    transition: all 200ms;
+    opacity: 0.5;
+    font-size: 80%
+}
+
+.form-control:focus+.form-control-placeholder,
+.form-control:valid+.form-control-placeholder {
+    font-size: 80%;
+    transform: translate3d(0, -90%, 0);
+    opacity: 1;
+    top: 10px;
+    color: #8B92AC
+}
+
+.btn-block {
+    border: none;
+    border-radius: 8px;
+    background-color: #506CCF;
+    padding: 10px 0 12px
+}
+
+.btn-block:focus {
+    box-shadow: none
+}
+
+.btn-block span {
+    font-size: 15px;
+    color: #D0E6FF
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.row {
+    width: 900px;
+    border: none;
+    border-radius: 0;
+    box-sizing: border-box
+}
+
+.lcol {
+    background: linear-gradient(to bottom, rgba(26, 111, 118, 1) 50%, rgba(40, 30, 101, 1) 100%, rgba(125, 185, 232, 1) 100%);
+    height: 550px;
+    padding: 0 35px
+}
+
+.rcol {
+    background: rgb(248, 245, 245);
+    padding: 80px;
+    height: 550px
+}
+
+span.txt {
+    color: #17C296
+}
+
+.greeting {
+    padding-top: 200px;
+    padding-right: 90px
+}
+
+h6.mt-3 {
+    padding-right: 115px
+}
+
+.footer {
+    margin-top: 220px
+}
+
+.footer span {
+    color: #19181b;
+    font-size: 9px;
+    cursor: pointer
+}
+
+.fab {
+    color: #757594;
+    font-size: 10px;
+    margin-right: 20px;
+    padding-top: 3px;
+    cursor: pointer
+}
+
+h2.heading {
+    font-weight: bold
+}
+
+.form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #F2F2F2
+}
+
+.form-control::placeholder {
+    font-size: 13px;
+    color: #040405b4
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #F2F2F2
+}
+
+.fone input {
+    padding-left: 20px
+}
+
+.fone {
+    position: relative
+}
+
+.fone .fas {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    padding: 8px 0px;
+    color: #C2C2CC;
+    font-size: 12px
+}
+
+.fone .image {
+    position: absolute;
+    left: 275px;
+    top: 0px;
+    cursor: pointer
+}
+
+.form-check-input {
+    margin-top: 10px
+}
+
+.form-check-label {
+    font-size: 9px;
+    color: #0a0a0a
+}
+
+.btn-success {
+    padding: 7px 40px;
+    background: #11C892;
+    border: none;
+    border-radius: 30px;
+    font-size: 9px
+}
+
+.btn-success:hover {
+    background: #11C892
+}
+
+.btn-success:focus {
+    box-shadow: none
+}
+
+u {
+    cursor: pointer
+}
+
+p.exist {
+    font-size: 9px;
+    color: #C2C2CC
+}
+
+p.exist span {
+    cursor: pointer;
+    color: #ABA5D3
+}
+
+@media screen and (max-width: 993px) {
+    .fone .image {
+        position: absolute;
+        left: 180px
+    }
+
+    .footer {
+        margin-top: 170px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        width: 450px
+    }
+
+    .rcol {
+        padding: 60px 180px 60px 60px
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .rcol {
+        padding: 60px 50px 60px 50px
+    }
+
+    .footer {
+        margin-top: 140px
+    }
+}
